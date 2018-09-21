@@ -1,8 +1,8 @@
 #coding:utf-8
 from flask import Flask
+from flask_sqlalchemy import SQLAlchemy
 
 app = Flask(__name__)
-app.debug = True
 
 from app.views.home import home as home_blueprint
 from app.views.admin import admin as admin_blueprint
