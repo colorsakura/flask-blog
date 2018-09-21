@@ -1,6 +1,7 @@
-#coding:utf-8
+# coding:utf-8
+import os
 from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+
 
 app = Flask(__name__)
 
