@@ -2,4 +2,6 @@
 
 {% block content %}
 <h1>This is the index page</h1>
+<a href="{{url_for('home.login')}}">login</a>
+<a href="{{url_for('home.register')}}">register</a>
 {% endblock content %}
