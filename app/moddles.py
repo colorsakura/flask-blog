@@ -1,8 +1,6 @@
-from app import app
-from flask_sqlalchemy import SQLAlchemy
+import datetime
+from flask import url_for
+from . import db
 
-
-db = SQLAlchemy(app)
-
-class User(db.Model):
-    id = db.Column
+class Article(db.Model):
+	

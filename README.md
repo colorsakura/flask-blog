@@ -1,1 +1,1 @@
-This is a flask practice
+This is a flask web practice
